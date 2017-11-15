@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
 	char inp[100];
@@ -6,3 +6,14 @@ int main()
 	fgets(inp, 100, stdin);
         printf("Your input: %s", inp);
 }	
+
+*/
+
+#include <stdio.h>
+int main()
+{
+	char userInput[100];
+	printf("Enter string :\n");
+	fgets(userInput, 100, stdin);
+	printf("Your input: %s", userInput);
+}

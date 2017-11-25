@@ -16,12 +16,12 @@ int main()
 	
 	if (wkF < 10.0) 
 	{
-		printf("Problem detected! Fieldwork hours must be 10 to 30 hours per week.\n");
+		printf("\nProblem detected! Fieldwork hours must be 10 to 30 hours per week.\n");
 		sChoice = 4;
 	}
 	else if ( wkF > 30.0)
 	{
-		printf("Maximum fieldwork is 30 hours in a single week. Calculator will use 30 hours as fieldwork amount.\n"); 	
+		printf("\nMaximum fieldwork is 30 hours in a single week. Calculator will use 30 hours as fieldwork amount.\n"); 	
 		wkF = 30.0;
 	}
 	else 
@@ -33,11 +33,11 @@ int main()
 
 	switch (sChoice)
 	{
-	  case 1: printf("Document %.2f supervision hours for Independent Fieldwork\n", wkS);
+	  case 1: printf("\nDocument %.2f supervision hours for %.2f hours of Independent Fieldwork\n", wkS, wkF);
 			break;
-	  case 2: printf("Document %.2f supervision hours for Practicum\n", wkSP);
+	  case 2: printf("\nDocument %.2f supervision hours for %.2f hours of Practicum\n", wkSP, wkF);
 		  	break;
-	  case 3: printf("Document %.2f supervision hours for Intensive Practicum\n", wkSI);
+	  case 3: printf("Document %.2f supervision hours for %.2f hours of Intensive Practicum\n", wkSI, wkF);
 		  	break;
 	  case 4: printf("Value of fieldwork hours entered is too low to calculate.\n"); 
 			break;

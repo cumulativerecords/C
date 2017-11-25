@@ -1,4 +1,6 @@
-/* Switch statement for ABA supervision categories*/
+/* Working Supervision Documentation Calculator program
+*Switch statement for ABA supervision categories
+*/
 
 #include <stdio.h>
 
@@ -37,14 +39,12 @@ int main()
 
 	switch (sChoice)
 	{
-	  case 1: printf("\nDocument %.2f supervision hours and %.2f hours of Independent Fieldwork.\n\n", wkS, wkF);
+	  case 1: printf("\n*****************************************************************************************\n*  Document %.2f supervision hours and %.2f fieldwork hours of Independent Fieldwork.  *\n*****************************************************************************************\n", wkS, wkF);
 			break;
-	  case 2: printf("\nDocument %.2f supervision hours and %.2f hours of Practicum.\n\n", wkSP, wkF);
+	  case 2: printf("\n*****************************************************************************\n*  Document %.2f supervision hours and %.2f fieldwork hours of Practicum.  *\n*****************************************************************************\n", wkSP, wkF);
 		  	break;
-	  case 3: printf("\nDocument %.2f supervision hours and %.2f hours of Intensive Practicum.\n\n", wkSI, wkF);
+	  case 3: printf("\n***************************************************************************************\n*  Document %.2f supervision hours and %.2f fieldwork hours of Intensive Practicum.  *\n***************************************************************************************\n", wkSI, wkF);
 		  	break;
-	  case 4: printf("\nValue of fieldwork hours entered is too low to calculate.\n\n"); 
-			break;
 	  default: printf("\nIllegal entry for supervison category.\n\n");
 	}
 	

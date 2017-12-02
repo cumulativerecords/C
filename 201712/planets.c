@@ -15,6 +15,15 @@ int main(int argc, char * argv[])
 
 	int i, j;
 
+	/********************************************************************************
+	 * Nested for loops:	Using program parameters (int argc, char *argv[]).	*
+	 * 			First for loop runs argc. 0 = program name, 1 = strings	*
+	 * 			, 2 = name of file to run program on (if applicable),	*
+	 * 			3 = null character (termination). Argc value counter	*
+	 * 			initializes at i = 1 (starting loop at program name).	*
+	 * 			Incrementing, i = 2 runs through strings provided.	*
+	 * 			i = 3 for this program is a null termination character.	*
+	 ********************************************************************************/
 	for (i= 1; i < argc; i++) 
 	{
 	  for (j = 0 ; j < NUM_PLANETS; j++)

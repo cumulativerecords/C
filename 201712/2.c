@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
 //Now inside loop with compound statement to step through the arg input.
   {
     for (j = 0; j < NUM_PLANETS; j++)
-	  if (strcpy(argv[i], planets[j]) == 0)
+	  if (strcmp(argv[i], planets[j]) == 0)
 	     {
-		printf("%s is planet %d\n", argv[i], j + 1);
+		printf("%s is planet %d.\n", argv[i], j + 1);
 		break;		 	  
 	     }
 	  if (j == NUM_PLANETS)

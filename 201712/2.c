@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 //Now declare array of pointers for planets, to check against the list from CLI.
-	char *planets[] = {"Mercury", "Venus", "Mars", "Earth", "Jupiter", "Saturn", "Uranus", "Neptune","Pluto"};
+	char *planets[] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune","Pluto"};
 	int i, j;
 
 //Now outside loop of argc
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		break;		 	  
 	     }
 	  if (j == NUM_PLANETS)
-	  printf("%s is not a planet.\n", argv[1]);
+	  printf("%s is not a planet.\n", argv[i]);
 	}
   return 0;
 }

@@ -2,6 +2,25 @@
  
 #include <stdio.h>
 
+void name_function();
+double fivePercent_function(double a);
+
+
+
+
+int main ()
+{
+  name_function();
+
+  double i;
+  printf("How many hours of fieldwork did the supervisee/mentee/intern work this WEEK?\n");
+  scanf("%lf", &i);
+  
+  fivePercent_function(i);
+    
+  return 0;
+} 
+
 void
 name_function()
 {
@@ -30,15 +49,3 @@ fivePercent_function(double a)
   printf("Document %g hours of independent fieldwork supervision for the week.\n", a);
 }
 
-int main ()
-{
-  name_function();
-
-  double i;
-  printf("How many hours of fieldwork did the supervisee/mentee/intern work this WEEK?\n");
-  scanf("%lf", &i);
-  
-  fivePercent_function(i);
-    
-  return 0;
-} 

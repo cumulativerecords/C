@@ -1,5 +1,6 @@
 /* enums practice */
 #include <stdio.h>
+
 void
 greeting(void);
 

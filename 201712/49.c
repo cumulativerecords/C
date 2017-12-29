@@ -16,9 +16,11 @@ int main (int argc, char *argv[])
   //must declare and initialize j here to compile
   int j = 0;
   //check bad input, then add error message/instruction if bad input
+  
   while (argv[1] == NULL) 
    {
-	printf("Usage: ./program_name string1 string2 ...\n");
+	printf("Usage: ./program_name string1 string2 ...\n "
+               "%d is argc\n", argc);
         return 1;
    }
  

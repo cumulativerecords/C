@@ -1,0 +1,44 @@
+/* 4p memory test */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#
+#define NUM_PLANETS 9
+
+/* command line arguments */
+int main (int argc, char *argv[])
+{ 
+   /* Add planets array */
+char *planets[] = { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn",  "Uranus", "Neptune", "Pluto"};
+   /* Add variable for stepping through the planets
+    * Not necessary to have a variable declared up 
+    * top for command line arguments
+    */
+int j = 0;
+  
+/* provide error message if not enough arguments provided */
+while (argc < 2)
+  {
+    printf("Usage: ./10 foo bar baz\n");
+    return -1;
+  }
+
+/* Now process arguments in loop */
+
+for (int i = 1; i < argc; i++)
+  {
+
+/* Compare all the strings to the planet array */
+for (j = 0; j < NUM_PLANETS; j++)
+   
+  if (strcmp(argv[i], planets[j]) == 0)
+    {
+       printf("%s is planet %d\n", argv[i], j + 1);
+       break;
+     }
+  if ( j == NUM_PLANETS )
+       printf("%s is something else\n", argv[i]);
+
+}
+
+}

@@ -1,0 +1,55 @@
+B – 01 USE THE DIMENSIONS OF APPLIED BEHAVIOR ANALYSIS (BAER, WOLF, & RISLEY, 1968) TO EVALUATE WHETHER INTERVENTIONS ARE BEHAVIOR ANALYTIC IN NATURE.
+
+Definitions: 
+“Baer, Wolf, and Risley (1968) recommended that applied behavior analysis should be applied, behavioral, analytic, technological, conceptually systematic, effective, and capable of appropriately generalized outcomes….” In 1987 Baer and colleagues reported that the “seven self-conscious guides to behavior analytic conduct” they had offered 20 years earlier “remain functional; they still connote the current dimensions of the work usually called applied behavior analysis”. (Baer, et al., cited in Cooper et al. 2007, p. 16)
+
+1. The applied dimension relates to choosing target behaviors to change that are socially significant. 
+
+2. The behavioral dimension refers to the target behavior being systematically chosen for intervention based on its significance and this behavior must be measurable.  Baer et al. (1968) summarized this point by stating, “Since the behavior of an individual is composed of physical events, its scientific study requires their precise measure.”
+
+3. The analytic dimension refers to “… a functional relation between the manipulated events and a reliable change in some measureable dimension of the targeted behavior.” (Cooper et al. 2007). Baer et al. (1968) stated that, “An experimenter has achieved an analysis of behavior when he can exercise control over it.”
+
+4. “A study in applied behavior analysis is technological when all of its operative procedures are identified and described with sufficient detail and clarity.” (Cooper et al., 2007).
+
+5. Conceptual systems refer to the application of behavior analytic principles to create behavior change. “The field of applied behavior analysis will probably advance best if the published descriptions of its procedures are not only precisely technological, but also strive for relevance to principle.” (Baer et. al. 1968).
+
+6. “An effective application of behavioral techniques must improve the behavior under investigation to a practical degree.” (Cooper et al., 2007).
+
+7. The final dimension of applied behavior analysis outlined by Baer et al. (1968) was generality. “A behavior change has generality if it lasts over time, appears in environments other than the one in which the intervention that initially produced it was implemented, and/or spreads to other behaviors not directly treated by the intervention.” (Cooper et al., 2007).
+
+Example: 
+Tim was evaluating the effectiveness of an intervention to decrease inappropriate comments for a first grade student on his case load. The data indicated that the behavior had decreased across all settings including when the child was home, displaying generalization of the intervention. He also noticed that the intervention was analytic because the data indicated that on days there was a substitute who was not thoroughly trained on the intervention there was a significant increase in rates of inappropriate commenting. Finally, Tim deemed the behavior of inappropriately commenting to be socially significant because it impeded the student from effectively accessing the classroom curriculum. 
+
+Non-Example: 
+Ross was evaluating an intervention on decreasing stereotypy in one of his students. He analyzed the data and noticed that the rates had barely decreased from baseline rates and the student was still not making effective progress in the classroom. The intervention to decrease stereotypy only worked occasionally with preferred staff in the classroom setting, but rates of stereotypy had actually increased across other settings. Ross decided that this intervention was not meeting the standards to be considered behavior analytic so he decided to try another intervention.
+
+Write another example:
+
+
+
+
+Questions to ask your supervisor:
+
+
+
+
+Notes:
+
+
+Relevant Literature: 
+Cooper, J.O., Heron, T.E. & Heward W.L. (2007). Applied Behavior Analysis (2nd Ed.), Upper Saddle River, NJ. Pearson Prentice Hall.  16-18, 235, 247-252.
+Baer, D.M., Wolf, M.M., & Risley, T.R. (1968). Some Current Dimensions of Applied Behavior Analysis. Journal of Applied Behavior Analysis, 1, 1, 91-97. 
+Baer, D.M., Wolf, M.M., & Risley, T.R. (1987). Some Still Current Dimensions of Applied Behavior Analysis. Journal of Applied Behavior Analysis, 20, 4, 313-327.
+Stokes, T.F. & Baer, D.M. (1977). An Implicit Technology of Generalization. Journal of Applied Behavior Analysis, 10, 2, 349-367.
+Wolf, M.M. (1978). Social Validity: The Case for Subjective Measurement or How Applied Behavior Analysis is finding its Heart. Journal of Applied Behavior Analysis, 11, 2, 203-214.
+
+Related Lessons:
+B-04: Use withdrawal/reversal designs
+B-05: Use alternating treatments (i.e., multi-element) designs
+B-06: Use changing criterion designs
+B-07: Use multiple baseline designs
+B-09: Conduct a component analysis to determine the effective components of an intervention package
+B-11: Conduct a parametric analysis to determine the effective values of an independent variable. 
+H-04: Evaluate changes in level, trend, and variability. 
+I-01:  Define behavior in observable and measureable terms.
+

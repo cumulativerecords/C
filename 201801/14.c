@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
    **************************************************************/
   FILE *inputFile;
   char *mode = "r";
-  char line[80];
+  char line[1000];
   int activeLine = 0;
   int data;
 
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
   /* Return error message if no arguments entered */
   while (argc < 2)
      {
-        puts("Usage: ./13 rangestart rangeend inputFile");
+        puts("Usage: ./14 rangestart rangeend inputFile");
 	exit(1);
      }      
 
@@ -56,12 +56,12 @@ int main(int argc, char *argv[])
     
    for (activeLine = argvMin; activeLine <= argvMax; activeLine++)
    {
-     if (fscanf(inputFile, "%s %d", line, &data) == 2) {
-     printf("Printing line %d: %s %d\n", activeLine, line, data);
+     if (fscanf(inputFile, "%s\n", line) == 1) {
+     printf("Printing line %d: %s\n", activeLine, line);
      
    }
 
-}
+}]
 //} 
      
 
